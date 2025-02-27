@@ -12,12 +12,31 @@ video {
   max-height: 100%;
 }
 
-.text-overlay {
+.heading-overlay {
   position: absolute;
-  bottom: 70px;
+  top: 10px;
+  bottom: 3px;
   left: 20px;
   color: white;
-  font-size: 24px;
+  font-size: 96px;
   font-family: var(--heading-font);
   padding: 10px;
+  line-height: 1;
+}
+
+.paragraph-overlay {
+  position: absolute;
+  bottom: 5px;
+  right: 30px;
+  color: white;
+  opacity: 0.8;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: var(--heading-font);
+  padding: 10px;
+  line-height: 1;
+}
+
+.h1-thin {
+  font-weight: 200;
 }
