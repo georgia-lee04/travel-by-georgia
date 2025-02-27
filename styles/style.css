@@ -1,5 +1,5 @@
-:root {
-  --heading-font: "Poppins", serif;
+body {
+  font-family: "Poppins", serif;
 }
 
 .video-container {
@@ -19,7 +19,7 @@ video {
   left: 20px;
   color: white;
   font-size: 96px;
-  font-family: var(--heading-font);
+
   padding: 10px;
   line-height: 1;
 }
@@ -32,11 +32,24 @@ video {
   opacity: 0.8;
   font-size: 20px;
   font-weight: 300;
-  font-family: var(--heading-font);
+
   padding: 10px;
   line-height: 1;
 }
 
 .h1-thin {
   font-weight: 200;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  opacity: 0.6;
+  font-size: 16px;
 }
